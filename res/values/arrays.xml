@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<resources>
+    <string-array name="listDisplayMovements">
+        <item>15</item>
+        <item>25</item>
+        <item>50</item>
+        <item>100</item>
+        <item>150</item>
+        <item>200</item>
+    </string-array>
+
+    <string-array name="listReturnMovements">
+        <item>15</item>
+        <item>25</item>
+        <item>50</item>
+        <item>100</item>
+        <item>150</item>
+        <item>200</item>
+    </string-array>
+
+    <string-array name="listDisplayFrequency">
+        <item>Két másodpercenként</item>
+        <item>Öt másodpercenként</item>
+        <item>Fél percenként</item>
+        <item>Percenként</item>
+        <item>Öt percenként</item>
+        <item>Tíz percenként</item>
+    </string-array>
+
+    <string-array name="listReturnFrequency">
+        <item>2000</item>
+        <item>5000</item>
+        <item>30000</item>
+        <item>60000</item>
+        <item>300000</item>
+        <item>600000</item>
+    </string-array>
+
+    <string-array name="listDisplayProvider">
+        <item>Hálózat alapú (Network)</item>
+        <item>Műholdas alapú (GPS)</item>
+    </string-array>
+
+    <string-array name="listReturnProvider">
+        <item>network</item>
+        <item>gps</item>
+    </string-array>
+
+</resources>

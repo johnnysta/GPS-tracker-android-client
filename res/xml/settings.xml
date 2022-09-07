@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+    <PreferenceCategory android:title="Beállítások">
+        <EditTextPreference
+            android:defaultValue="+36302221884"
+            android:key="phone_number"
+            android:title="Telefonszám"
+            android:summary="Ide küldi a program az SMS-t."
+            android:visibility="visible"
+            />
+        <EditTextPreference
+            android:defaultValue="Elmozdulás!"
+            android:key="basic_message"
+            android:title="Alapüzenet"
+            android:summary="Ez jelenik meg alapüzenetként."
+            />
+        <EditTextPreference
+            android:defaultValue=""
+            android:key="registered_id"
+            android:title="Regisztrált azonosító"
+            android:summary="A webhelyen regisztrált azonosító."
+            />
+        <EditTextPreference
+            android:defaultValue=""
+            android:key="tracked_entity_name"
+            android:title="Követett neve"
+            android:summary="Egy regisztrált felhasználó max. 5 eszközt követhet."
+            />
+        <ListPreference
+            android:summary="Ha az elmozdulás ennél nagyobb (m-ben), riasztás jön."
+            android:key="movement_setting"
+            android:title="Elmozdulás"
+            android:entries="@array/listDisplayMovements"
+            android:entryValues="@array/listReturnMovements"
+            />
+        <ListPreference
+            android:summary="Ennyi időnként kéri le a program a helyadatokat (másodpercben)."
+            android:key="interval_setting"
+            android:title="Gyakoriság"
+            android:entries="@array/listDisplayFrequency"
+            android:entryValues="@array/listReturnFrequency"
+            />
+        <ListPreference
+            android:summary="Ezzel a módszerrel keresi a helyadatokat."
+            android:key="provider"
+            android:title="Helymeghatározási üzemmód"
+            android:entries="@array/listDisplayProvider"
+            android:entryValues="@array/listReturnProvider"
+            />
+
+    </PreferenceCategory>
+</PreferenceScreen>
